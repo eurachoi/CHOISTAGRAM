@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Bond
 
 class PostTableViewCell: UITableViewCell {
 
@@ -14,6 +15,16 @@ class PostTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+    }
+    var post: Post? {
+        didSet {
+            // 1
+            if let post = post {
+                //2
+                // bind the image of the post to the 'postImage' view
+                post.image.bindTo(postImageView.bnd_image)
+            }
+        }
     }
 
     override func setSelected(selected: Bool, animated: Bool) {
