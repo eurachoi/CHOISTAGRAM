@@ -85,6 +85,7 @@
                                                     </constraints>
                                                     <inset key="contentEdgeInsets" minX="4" minY="6" maxX="4" maxY="5"/>
                                                     <state key="normal" image="heart"/>
+                                                    <state key="selected" image="heart_selected"/>
                                                     <connections>
                                                         <action selector="likeButtonTapped:" destination="30U-uL-QuR" eventType="touchUpInside" id="v0R-zW-2yf"/>
                                                     </connections>
@@ -188,6 +189,7 @@
     <resources>
         <image name="camera" width="40" height="30"/>
         <image name="heart" width="72" height="68"/>
+        <image name="heart_selected" width="72" height="68"/>
         <image name="home" width="38" height="36"/>
         <image name="more" width="26" height="17"/>
         <image name="people" width="42" height="42"/>
