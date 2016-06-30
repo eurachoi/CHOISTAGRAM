@@ -144,6 +144,7 @@
                                 </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="t4m-ab-UWs" id="mcb-cF-lnF"/>
+                                    <outlet property="delegate" destination="t4m-ab-UWs" id="0oR-nq-99F"/>
                                 </connections>
                             </tableView>
                         </subviews>
